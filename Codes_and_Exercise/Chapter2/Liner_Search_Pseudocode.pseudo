@@ -1,0 +1,9 @@
+Input: "A sequence of n numbers {a1,a2,a3,....,an} and a value v"
+output "an index of i where v = a[i] if found else out NIL" // NIL = NULL
+
+ans = NIL
+
+for i = 1 to n
+    if a[i] == v
+        ans = i
+cout << ans << endl;
